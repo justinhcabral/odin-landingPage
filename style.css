@@ -34,7 +34,7 @@ body{
   justify-content: center;
   align-items: center;
   color: white;
-  gap: 300px;
+  justify-content: space-between;
 }
 
 .intro-text{
@@ -56,9 +56,17 @@ body{
 .intro-par{
   /* margin-top: 0; */
   font-size: 18px;
+  max-width: 400px;
   color: #E5E7EB;
 }
 
+.intro-imag-container{
+  flex: 2;
+}
+
 .intro-image{
-  
+    max-width: 250px;
+    height: auto;
+    flex:1;
+    object-fit: fill;
 }
